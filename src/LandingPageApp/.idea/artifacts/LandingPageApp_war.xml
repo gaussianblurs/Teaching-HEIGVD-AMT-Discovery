@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="LandingPageApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="LandingPageApp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="LandingPageApp:war exploded" />
+    </root>
+  </artifact>
+</component>

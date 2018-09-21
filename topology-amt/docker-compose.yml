@@ -12,6 +12,8 @@ services:
     ports:
      - "9090:8080"
      - "9990:9990"
+    volumes:
+     - ../src/LandingPageApp/target:/opt/jboss/wildfly/standalone/deployments
   tomee:
     build: ../images/tomee
     ports:
